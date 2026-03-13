@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://braun-hausmeisterservices.de/sitemap.xml
+
+# Disallow admin and private areas (falls vorhanden)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+
+# Allow all images
+Allow: /public/
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.gif
+Allow: /*.webp
