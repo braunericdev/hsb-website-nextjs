@@ -1,22 +1,19 @@
-# Hausmeisterservice Braun – Corporate Website (Next.js)
+# Hausmeisterservice Braun – Corporate Website (Legacy / Next.js Version)
 
-Dies ist die vollumfängliche Corporate-Webanwendung für den Dienstleistungsbetrieb Hausmeisterservice Braun. Das Projekt dient der Kundenakquise sowie der detaillierten Darstellung des Leistungsspektrums.
+Dies ist die erste Version der Web-Präsenz für den Hausmeisterservice Braun. Das Projekt diente als mein Einstieg in die moderne Webentwicklung mit dem Next.js-Ökosystem.
 
-## Architektur-Entscheidung
+## Projekt-Historie und Einordnung
 
-Die Wahl fiel bewusst auf das Meta-Framework Next.js, um moderne Web-Konzepte wie Server-Side Rendering (SSR) und das App-Router-Paradigma tiefgreifend zu implementieren. 
+Dieses Repository repräsentiert mein erstes großes Lernprojekt. Hier habe ich mich intensiv mit den Konzepten von Next.js (App Router, Server-Side Rendering) und TypeScript vertraut gemacht. 
 
-Hinweis: Für spezifische Google-Ads-Kampagnen wurde eine architektonische Gegenentscheidung getroffen. Hierfür wurde eine leichtgewichtige, reine Client-Side-SPA mit Vite entwickelt, um die Ladezeiten und Conversion-Rates zu maximieren (siehe Repository: hsb-landingpage-vite).
+Nach erfolgreichem Abschluss dieser Version habe ich mich dazu entschieden, die gesamte Website auf Basis von **Vite** und **Node.js** komplett neu zu entwickeln. Ziel des Nachfolge-Projekts war es, die Architektur noch schlanker zu gestalten, den Framework-Overhead zu reduzieren und eine maximale Kontrolle über den Build-Prozess zu erhalten.
 
-## Technischer Stack
+## Technischer Stack (Version 1)
 
-Die Anwendung nutzt aktuelle Web-Technologien für maximale Performance und Wartbarkeit:
-
-* **Framework:** Next.js 15 (App Router)
+* **Framework:** Next.js 15
 * **Library:** React 19
 * **Styling:** Tailwind CSS v4
-* **Typsicherheit:** TypeScript 5.8
-* **Entwicklung:** Turbopack-Integration für schnelle Build-Zyklen
+* **Sprache:** TypeScript
 
 ## Funktionsumfang
 
@@ -24,3 +21,7 @@ Die Anwendung nutzt aktuelle Web-Technologien für maximale Performance und Wart
 * **Compliance:** Integration eines DSGVO-konformen Cookie-Consent-Managements (react-cookie-consent).
 * **Qualitätssicherung:** Konfiguration für geräteübergreifendes Testing im lokalen Netzwerk (0.0.0.0 Bind).
 * **Code-Qualität:** Strikte Typisierung und ESLint-Konfiguration zur Fehlervermeidung.
+
+## Status des Repositories
+
+Dieses Repository dokumentiert die erste produktive Phase des Unternehmens. Die aktuelle, weiterentwickelte Version der Website befindet sich im Repository: https://github.com/braunericdev/hsb-website-vite
