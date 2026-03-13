@@ -8,6 +8,14 @@ Dieses Repository repräsentiert mein erstes großes Lernprojekt. Hier habe ich 
 
 Nach erfolgreichem Abschluss dieser Version habe ich mich dazu entschieden, die gesamte Website auf Basis von **Vite** und **Node.js** komplett neu zu entwickeln. Ziel des Nachfolge-Projekts war es, die Architektur noch schlanker zu gestalten, den Framework-Overhead zu reduzieren und eine maximale Kontrolle über den Build-Prozess zu erhalten.
 
+## Technische Besonderheiten: Komponenten-Architektur
+
+Ein zentraler Fokus der Entwicklung lag auf der Modularisierung der Benutzeroberfläche:
+
+* **Parametrisierte Komponenten:** Durch die Nutzung von React-Props wurden wiederverwendbare UI-Elemente geschaffen. Diese erlauben es, komplexe Sektionen zentral zu definieren und auf verschiedenen Unterseiten mit individuellen Inhalten (Texten, Bildern, Konfigurationen) zu füllen.
+* **DRY-Prinzip (Don't Repeat Yourself):** Diese Architektur minimiert redundanten Code und stellt eine konsistente Design-Sprache über die gesamte Anwendung sicher.
+* **Typisierung:** Die Komponenten-Schnittstellen wurden mittels TypeScript-Interfaces strikt typisiert, um Fehler bei der Datenübergabe bereits zur Entwicklungszeit auszuschließen.
+
 ## Technischer Stack (Version 1)
 
 * **Framework:** Next.js 15
